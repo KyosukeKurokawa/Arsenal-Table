@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+     background-image: url('player.jpeg');
+}
+header {
+    background-color: #ec0024;
+    
+    padding: 10px 10px;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.layout {
+    display: flex;
+    gap: 20px;
+}
+main {
+    flex: 1;
+}
+aside {
+    width: 280px;
+    flex-shrink: 0;
+    
+    
+    background-color: #fec316;
+    padding: 10px 10px;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom:10px;
+    text-align: left;
+    color: white;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #696060;
+}
+th {
+    background-color: #ae965e;
+    color: #113476;
+}
+tbody tr:nth-child(even) {
+    background-color: #fdebeb;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.total {
+    background-color: white;
+}
+footer {
+    color: white;
+    background-color: #d62121;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
